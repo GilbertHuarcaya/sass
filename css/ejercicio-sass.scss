@@ -1,0 +1,25 @@
+
+@import "../componentes/globales";
+@import "../componentes/perfiles.scss";
+@import "../componentes/estadisticas.scss";
+@import "../componentes/ubicaciones.scss";
+@import "../componentes/galerias.scss";
+@import "../componentes/articulos.scss";
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: $color-primario;
+		color: $color-claro;
+	}
+
+	.intro {
+		background-color: $color-secundario;
+	}
+
+	.articulo--principal h2 {
+		color: $color-secundario;
+	}
+
+	.caja__contenido {
+		background-color: $color-secundario;
+	}
+}
